@@ -18,6 +18,7 @@ export default defineConfig({
   },
   preview: {
     host: true,
+    allowedHosts: "meuroboai.com.br",
     port: 3000,
     strictPort: true
   }
